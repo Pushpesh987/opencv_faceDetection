@@ -16,7 +16,7 @@ def visualize(image, faces, thickness=2):
 
 ap = argparse.ArgumentParser()
 ap.add_argument("-r", "--reference_image", required=True, help="imgs\reference.jpg")
-ap.add_argument("-q", "--query_image", required=True, help="imgs\\query.jpg")
+ap.add_argument("-q", "--query_image", required=True, help="imgs\query.jpg")
 
 args = vars(ap.parse_args())
 
