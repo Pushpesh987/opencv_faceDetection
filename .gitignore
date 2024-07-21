@@ -1,0 +1,8 @@
+# Ignore the aadhar_images directory
+aadhaar_images/
+
+# Other patterns to ignore
+*.log
+*.tmp
+*.pyc
+__pycache__/
